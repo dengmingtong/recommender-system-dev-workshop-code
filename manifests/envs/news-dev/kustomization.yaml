@@ -58,8 +58,8 @@ images:
   newName: public.ecr.aws/t8u1z3c8/rs/retrieve
   newTag: latest
 - name: rs/ui
-  newName: public.ecr.aws/t8u1z3c8/rs/ui
-  newTag: latest
+  newName: 521105912180.dkr.ecr.ap-northeast-1.amazonaws.com/rs/ui
+  newTag: 20d5eba715023a601fd6c53eabfb87b78fee5b4e
 
 
 
