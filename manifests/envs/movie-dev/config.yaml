@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: rs-news-dev-config
+  name: rs-movie-dev-config
 data:
   redis_port: "6379"
   redis_host: "gcr-rs-dev-workshop-redis-cluster-movie.l0kyzu.0001.apne1.cache.amazonaws.com"
@@ -9,7 +9,7 @@ data:
   messge_broker_redis_host: "redis-cart"
   aws_region: "ap-northeast-1"
   s3_bucket: "aws-gcr-rs-sol-dev-workshop-ap-northeast-1-521105912180"
-  s3_prefix: "sample-data-news"
+  s3_prefix: "sample-data-movie"
   click_record_file_path: 'sample-data-movie/system/ingest-data/action/'
   user_record_file_path: 'sample-data-movie/system/ingest-data/user/'
   click_record_bucket: 'aws-gcr-rs-sol-dev-workshop-ap-northeast-1-521105912180'

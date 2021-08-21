@@ -70,42 +70,42 @@ vars:
   objref:
     apiVersion: v1
     kind: ConfigMap
-    name: rs-news-dev-config
+    name: rs-movie-dev-config
 - fieldref:
     fieldPath: data.redis_port
   name: REDIS_PORT
   objref:
     apiVersion: v1
     kind: ConfigMap
-    name: rs-news-dev-config
+    name: rs-movie-dev-config
 - fieldref:
     fieldPath: data.messge_broker_redis_host
   name: MESSGE_BROKER_REDIS_HOST
   objref:
     apiVersion: v1
     kind: ConfigMap
-    name: rs-news-dev-config
+    name: rs-movie-dev-config
 - fieldref:
     fieldPath: data.messge_broker_redis_port
   name: MESSGE_BROKER_REDIS_PORT
   objref:
     apiVersion: v1
     kind: ConfigMap
-    name: rs-news-dev-config
+    name: rs-movie-dev-config
 - fieldref:
     fieldPath: data.aws_region
   name: AWS_REGION
   objref:
     apiVersion: v1
     kind: ConfigMap
-    name: rs-news-dev-config
+    name: rs-movie-dev-config
 - fieldref:
     fieldPath: data.s3_bucket
   name: S3_BUCKET
   objref:
     apiVersion: v1
     kind: ConfigMap
-    name: rs-news-dev-config
+    name: rs-movie-dev-config
 - fieldref:
     fieldPath: data.s3_prefix
   name: S3_PREFIX
@@ -119,25 +119,25 @@ vars:
   objref:
     apiVersion: v1
     kind: ConfigMap
-    name: rs-news-dev-config
+    name: rs-movie-dev-config
 - fieldref:
     fieldPath: data.click_record_file_path
   name: CLICK_RECORD_FILE_PATH
   objref:
     apiVersion: v1
     kind: ConfigMap
-    name: rs-news-dev-config
+    name: rs-movie-dev-config
 - fieldref:
     fieldPath: data.user_record_file_path
   name: USER_RECORD_FILE_PATH
   objref:
     apiVersion: v1
     kind: ConfigMap
-    name: rs-news-dev-config
+    name: rs-movie-dev-config
 - fieldref:
     fieldPath: data.local_data_folder
   name: LOCAL_DATA_FOLDER
   objref:
     apiVersion: v1
     kind: ConfigMap
-    name: rs-news-dev-config
+    name: rs-movie-dev-config

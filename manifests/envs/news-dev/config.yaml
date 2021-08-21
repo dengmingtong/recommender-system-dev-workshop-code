@@ -14,5 +14,11 @@ data:
   user_record_file_path: 'sample-data-news/system/ingest-data/user/'
   click_record_bucket: 'aws-gcr-rs-sol-dev-workshop-ap-northeast-1-521105912180'
   local_data_folder: '/rs-data/news-dev/'
+  aws-exports.json: |
+    {
+      "DEPLOY_TYPE": "ALL",
+      "NEWS_API_URL": "http://a27ff965e39194ba291740ef6d061268-2137008797.ap-northeast-1.elb.amazonaws.com/api/v1/demo",
+      "MOVIE_API_URL": "http://ae0bc6c5e9ede462faa444f0af0980f1-1449396215.ap-northeast-1.elb.amazonaws.com/api/v1/demo"
+    }   
 
   
