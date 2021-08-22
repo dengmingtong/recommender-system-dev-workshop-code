@@ -112,7 +112,7 @@ vars:
   objref:
     apiVersion: v1
     kind: ConfigMap
-    name: rs-news-dev-config
+    name: rs-movie-dev-config
 - fieldref:
     fieldPath: data.click_record_bucket
   name: CLICK_RECORD_BUCKET

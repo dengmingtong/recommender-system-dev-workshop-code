@@ -14,11 +14,5 @@ data:
   user_record_file_path: 'sample-data-movie/system/ingest-data/user/'
   click_record_bucket: 'aws-gcr-rs-sol-dev-workshop-ap-northeast-1-521105912180'
   local_data_folder: '/rs-data/movie-dev/'
-  aws-exports.json: |
-    {
-      "DEPLOY_TYPE": "MOVIE",
-      "NEWS_API_URL": "/api/v1/demo",
-      "MOVIE_API_URL": "/api/v1/demo"
-    }  
 
   
